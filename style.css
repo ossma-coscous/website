@@ -17,15 +17,31 @@ h1, h3, h4, h5, h6 {
 }
 
 /* Navbar */
+/* Navbar */
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 1rem 2rem;
   color: rgb(9, 8, 8);
-  display: none;
 }
+.navbar ul {
+  display: flex;
+  gap: 25px;
+  list-style: none; 
+  margin-top: 15px;
 
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #111010;
+  text-transform: uppercase;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 16px;
+}
+.navbar ul li a:hover {
+  color: #dfa829;
+}
 #menu-icon {
   display: none;
   font-size: 1.5rem;
@@ -618,7 +634,7 @@ h1, h3, h4, h5, h6 {
     display: flex;
     justify-content: center;
     align-items: center;
-    left: 70px;
+    right: -80px;
   }
 
   .layout .circle h2 {
