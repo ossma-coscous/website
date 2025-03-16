@@ -287,16 +287,16 @@ h1, h3, h4, h5, h6 {
   color: #8ad142;
 }
 
- .layout  h1 {
-    font-size: 50px;
-    font-weight: 700;
-    font-family: "Montserrat", sans-serif;
-    position: relative;
-    right: 50px;
-    padding-top: 15px;
-    position: relative;
-    left: 2%;
-  }
+.layout .layout-content .items h1 {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  width: 463px;
+  height: 66px;
+  position: relative;
+  right: 50px;
+  padding-top: 15px;
+}
 
 .layout .layout-content .items .btn {
   color: #ffffff !important;
@@ -366,7 +366,6 @@ h1, h3, h4, h5, h6 {
   color: #f1ae0e !important;
   text-decoration: none;
 }
-
 /* Mobile Styles (max-width: 450px) */
 @media (max-width: 450px) {
   body {
