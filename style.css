@@ -406,15 +406,6 @@ h1, h3, h4, h5, h6 {
     margin: 0.5rem 0;
   }
 
- 
-  
-
-
-  
- 
-
-  
-
   .navbar {
     padding: 0.5rem 1rem;
     display: flex;
@@ -694,35 +685,42 @@ h1, h3, h4, h5, h6 {
     background-color: #e9bf408c;
   }
 
+ 
   .icons {
-    position: static;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 1rem;
-    text-align: center;
+    padding: 2rem;
+    margin-right: 60%;
+    bottom: 474px;
+    height: 800px;
   }
-
+  
   .icons .icon-1,
   .icons .icon-2,
   .icons .icon-3 {
-    margin-bottom: 1rem;
-    padding: 1rem;
-    background-color: #ffffff;
-    border-radius: 20px;
+    margin-bottom: -8.5rem;
+    padding: 1.5rem;
   }
-
+  
   .icons img {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+    margin-left: 48px;
   }
-
+  
   .icons h6 {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
+    margin-top: 82px;
+    margin-right: 174px;
   }
-
+  
   .icons p {
-    font-size: 0.875rem;
+    font-size: 1rem;
+    margin-right: 18px;
+    padding: 15px;
+    width: 308px;
+  }
+  .icons p > a {
+    position: relative;
+    right: 43px;
   }
 
   .text {
@@ -760,13 +758,6 @@ h1, h3, h4, h5, h6 {
   }
 
   /* Navbar */
-  
-
-
-  
-
-
-
   .navbar {
     padding: 0.5rem 1rem;
     display: flex;
@@ -791,36 +782,36 @@ h1, h3, h4, h5, h6 {
   
   .navbar ul {
     background-color: #111010;
-    width: 200px; /* Fixed width for the menu */
-    height: 100vh; /* Full height */
+    width: 200px; 
+    height: 100vh; 
     position: fixed;
     top: 40px;
-    left: -100%; /* Start off-screen */
+    left: -100%; 
     transition: left 0.3s ease-in-out;
-    padding-top: 60px; /* Space for the navbar */
+    padding-top: 60px; 
     margin: 0;
     list-style: none;
   }
   
   .navbar ul.active {
-    left: 0; /* Slide in from the left */
+    left: 0; 
   }
   
   .navbar ul li {
-    margin: 0; /* Remove margin between list items */
+    margin: 0; 
   }
   
   .navbar ul li a {
     text-decoration: none;
     color: #f1f1f1;
     font-size: 1rem;
-    padding: 0.75rem 1.5rem; /* Compact padding */
+    padding: 0.75rem 1.5rem; 
     display: block;
     transition: background-color 0.3s ease;
   }
   
   .navbar ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.1); /* Hover effect */
+    background-color: rgba(255, 255, 255, 0.1); 
   }
   #menu-icon {
     display: block;
@@ -996,31 +987,44 @@ h1, h3, h4, h5, h6 {
   }
 
   /* Icons Section */
-  .icons {
+  
+ .text   .icons {
     padding: 2rem;
-    margin-right: 80%;
+    margin-right: 60%;
+    bottom: 474px;
+    height: 800px;
   }
-
+  
   .icons .icon-1,
   .icons .icon-2,
   .icons .icon-3 {
-    margin-bottom: 1.5rem;
+    margin-bottom: -8.5rem;
     padding: 1.5rem;
   }
-
+  
   .icons img {
     width: 60px;
     height: 60px;
+    margin-left: 48px;
   }
-
+  
   .icons h6 {
     font-size: 1.25rem;
+    margin-top: 82px;
+    margin-right: 174px;
   }
-
+  
   .icons p {
     font-size: 1rem;
+    margin-right: 18px;
+    padding: 15px;
+    width: 308px;
   }
- .text {
+  .icons p > a {
+    position: relative;
+    right: 43px;
+  }
+{
     margin-left: -171px;
     text-align: center; 
     justify-content: center; 
